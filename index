@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
-<body>
-
+<html lang="en"
+<head>
+<body> 
 <h2>What Can JavaScript Do?</h2>
 
 <button onclick="document.getElementById('myImage').src='angry_face.jpg'">Make him angry </button>
