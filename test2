@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<button onclick="document.getElementById('myImage').src='angry_face.jpg'">Make him angry </button>
+
+<img id="myImage" src="angry_face.jpg" style="width:150px">
+
+<button onclick="document.getElementById('myImage').src='happy_face.jpg'">Make him happy</button>
+
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo1">What type of fish is made out of two sodium atoms?</p>
+
+<button type="button" onclick='document.getElementById("demo1").innerHTML = " 2 Na!"'>Click Me!</button>
+
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo2">What font is sky writing in?</p>
+
+<button type="button" onclick="document.getElementById('demo2').style.fontFamily='arial'">Click Me!</button>
+
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo3">I managed to bring this down to 0°k.</p>
+
+<button type="button" onclick="document.getElementById('demo3').style.display='none'">Click Me!</button>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>If the level of your jokes is through the earth's core,</p>
+
+<p id="demo4" style="display:none">It rises again!</p>
+
+<button type="button" onclick="document.getElementById('demo4').style.display='block'">Click Me!</button>
+
+</body>
+</html>
